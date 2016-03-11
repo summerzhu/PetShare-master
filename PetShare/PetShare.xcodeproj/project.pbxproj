@@ -21,9 +21,9 @@
 		B6AC380C1C8FF2D70049D622 /* resetKeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AC380B1C8FF2D70049D622 /* resetKeyViewController.m */; settings = {ASSET_TAGS = (); }; };
 		B6AC38151C9010950049D622 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AC38141C9010950049D622 /* Foundation.framework */; };
 		B6AC38171C9010A90049D622 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AC38161C9010A90049D622 /* UIKit.framework */; };
-		B6AC381D1C9010E80049D622 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AC381A1C9010E80049D622 /* MBProgressHUD+Add.m */; settings = {ASSET_TAGS = (); }; };
-		B6AC381E1C9010E80049D622 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AC381C1C9010E80049D622 /* MBProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
 		B6AC38201C9162BD0049D622 /* BmobSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AC381F1C9162BC0049D622 /* BmobSDK.framework */; settings = {ASSET_TAGS = (); }; };
+		B6AC38AD1C9282160049D622 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AC38AA1C9282160049D622 /* MBProgressHUD+Add.m */; settings = {ASSET_TAGS = (); }; };
+		B6AC38AE1C9282160049D622 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AC38AC1C9282160049D622 /* MBProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
 		B6DEB1B41BDFAFEE00375DF5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEB1B31BDFAFEE00375DF5 /* CoreLocation.framework */; };
 		B6DEB1B61BDFB00700375DF5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEB1B51BDFB00700375DF5 /* Security.framework */; };
 		B6DEB1B81BDFB01500375DF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DEB1B71BDFB01500375DF5 /* CoreGraphics.framework */; };
@@ -64,11 +64,11 @@
 		B6AC380B1C8FF2D70049D622 /* resetKeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = resetKeyViewController.m; sourceTree = "<group>"; };
 		B6AC38141C9010950049D622 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B6AC38161C9010A90049D622 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		B6AC38191C9010E80049D622 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
-		B6AC381A1C9010E80049D622 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
-		B6AC381B1C9010E80049D622 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		B6AC381C1C9010E80049D622 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		B6AC381F1C9162BC0049D622 /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BmobSDK.framework; sourceTree = "<group>"; };
+		B6AC38A91C9282160049D622 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		B6AC38AA1C9282160049D622 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		B6AC38AB1C9282160049D622 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		B6AC38AC1C9282160049D622 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		B6DEB1B31BDFAFEE00375DF5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		B6DEB1B51BDFB00700375DF5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		B6DEB1B71BDFB01500375DF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -131,8 +131,8 @@
 		15055ED11BDFC88800C5CEF2 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				B6AC38A81C9282160049D622 /* MBProgressHUD */,
 				B6AC381F1C9162BC0049D622 /* BmobSDK.framework */,
-				B6AC38181C9010E80049D622 /* MBProgressHUD */,
 			);
 			path = ThirdParty;
 			sourceTree = "<group>";
@@ -218,16 +218,15 @@
 			name = account;
 			sourceTree = "<group>";
 		};
-		B6AC38181C9010E80049D622 /* MBProgressHUD */ = {
+		B6AC38A81C9282160049D622 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				B6AC38191C9010E80049D622 /* MBProgressHUD+Add.h */,
-				B6AC381A1C9010E80049D622 /* MBProgressHUD+Add.m */,
-				B6AC381B1C9010E80049D622 /* MBProgressHUD.h */,
-				B6AC381C1C9010E80049D622 /* MBProgressHUD.m */,
+				B6AC38A91C9282160049D622 /* MBProgressHUD+Add.h */,
+				B6AC38AA1C9282160049D622 /* MBProgressHUD+Add.m */,
+				B6AC38AB1C9282160049D622 /* MBProgressHUD.h */,
+				B6AC38AC1C9282160049D622 /* MBProgressHUD.m */,
 			);
-			name = MBProgressHUD;
-			path = "../../../../linzihui-master-3/Linzihui/Linzihui/ThirdPartFrameWorks/MBProgressHUD";
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,11 +303,11 @@
 				153F3C111BD3EDA700C86F1A /* ViewController.m in Sources */,
 				13DF9A101BDE41E200CDDC88 /* BaseViewController.m in Sources */,
 				B6AC38081C8FEF610049D622 /* findKeyViewController.m in Sources */,
-				B6AC381E1C9010E80049D622 /* MBProgressHUD.m in Sources */,
+				B6AC38AE1C9282160049D622 /* MBProgressHUD.m in Sources */,
 				B6AC38021C8E74740049D622 /* LoginViewController.m in Sources */,
 				B6AC380C1C8FF2D70049D622 /* resetKeyViewController.m in Sources */,
 				153F3C0E1BD3EDA700C86F1A /* AppDelegate.m in Sources */,
-				B6AC381D1C9010E80049D622 /* MBProgressHUD+Add.m in Sources */,
+				B6AC38AD1C9282160049D622 /* MBProgressHUD+Add.m in Sources */,
 				13DF9A0D1BDE41C800CDDC88 /* BaseTableViewController.m in Sources */,
 				153F3C0B1BD3EDA700C86F1A /* main.m in Sources */,
 			);
